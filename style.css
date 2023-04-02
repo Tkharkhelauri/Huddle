@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+body {
+   
+    height: 100vh;
+    width: 100vw;
+    background: #684BB1;
+    background-image: url(./assets/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 722px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+
+
+}
+
+.logo {
+    height: 29px;
+    padding-left: 3px;
+    margin-bottom: 55px;
+}
+.mockup {
+    margin: auto;
+    height: 209px;
+    width: 295px;
+    
+
+}
+.text_container {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+h1 {
+    margin-top: 60px;
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+p {
+    margin-bottom: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+button {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #684bb1;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+}    
+svg {
+    width: 13px;
+    height: 13px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+}
+.fb-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 28px;
+    border: 1.17647px solid #ffffff;
+    border-radius: 50%;
+}
+
+.twitter-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 28px;
+    border: 1.17647px solid #ffffff;
+    border-radius: 50%;
+}
+.instagram-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 28px;
+    border: 1.17647px solid #ffffff;
+    border-radius: 50%;
+}
