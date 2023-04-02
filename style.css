@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+/* Mobile version  */
+
 body {
    
     height: 100vh;
@@ -97,7 +99,7 @@ footer {
 }
 
 
-
+/* Responsive */
 @media (min-width: 1440px) {
     body {
         display: block;
@@ -176,7 +178,7 @@ footer {
         height: 19px;
 
     }
-
+    /* Hovers */
     button:hover {
         background: #E880E8;
         color: #FFFFFF;
